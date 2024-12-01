@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .moving-text {
+            position: absolute;
+            left: 50px;
+            animation: moveText 12s infinite;
+        }
+        @keyframes moveText {
+            0% { left: 50px;}
+            50% {left: 800px;}
+            100% {left: 50px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-text"><h2>Nist College Banepa</h2></div>
+</body>
+</html>
